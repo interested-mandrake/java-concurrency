@@ -1,4 +1,7 @@
 import playspace.VisibilityProblem;
+import playspace.mythreads.MyThread;
+import playspace.mythreads.MyThreadChild;
+
 import java.lang.Thread;
 
 /**
@@ -10,8 +13,11 @@ import java.lang.Thread;
 
 public class Application {
 	
+	
 	public static void main(String [] args) {
-		VisibilityProblem vp = new VisibilityProblem();
+		
+		//VisibilityProblem vp = new VisibilityProblem();
+		MyThread t = new MyThread();
 	}
 	
 	
